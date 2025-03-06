@@ -1,0 +1,26 @@
+.work__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.work__item {
+  width: 500px;
+  border: 1px solid orange;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.work__title {
+  font-size: 3rem;
+}
+.section__work {
+  margin-block: 150px;
+}

@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__top {
+  display: flex;
+  gap: 30px;
+}
+.about__title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.about__desc {
+  margin-bottom: 30px;
+}
+.about__bottom {
+  width: 100%;
+  padding-inline: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+.about__exp2 {
+  padding-inline: 100px;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+}
+.skill__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.h_one {
+  width: 500px;
+}
+.h_two {
+  width: 700px;
+}
+.h_three {
+  width: 300px;
+}
+.h_four {
+  width: 400px;
+}
+.skill {
+  width: 200px;
+}
+.about__skills {
+  margin-top: 50px;
+}
+hr {
+  height: 8px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: orange;
+}
